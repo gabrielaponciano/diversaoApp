@@ -1,17 +1,35 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="warning">
     <ion-title>
-      Tab 2
+      Séries
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>15 de julho de 2016</ion-card-subtitle>
+      <ion-card-title>Stranger Things</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+     <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/esKFbCWAGyUUNshT5HE5BIpvbcL.jpg"/>
+     <p>Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.</p>
+     <ion-button expand="block" fill="outline">Mais informações...</ion-button>
+    </ion-card-content>
+  </ion-card>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>1 de dezembro de 2017</ion-card-subtitle>
+      <ion-card-title>Dark</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+     <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/5LoHuHWA4H8jElFlZDvsmU2n63b.jpg"/>
+     <p>Quatro famílias iniciam uma desesperada busca por respostas quando uma criança desaparece e um complexo mistério envolvendo três gerações começa a se revelar.</p>
+     <ion-button expand="block" fill="outline">Mais informações...</ion-button>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
